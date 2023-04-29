@@ -1,18 +1,18 @@
 .product{
-    width: 300px;
+    width: 301px;
     display: flex;
-    border: 1px solid #000;
+    border: 1px solid black;
     flex-direction: column;
     justify-content: space-between;
-    height: 350px;
+    height: 351px;
 }
 .name{
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: 701;
+    font-size: 21px;
 }
 .price{
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 501;
+    font-size: 17px;
 }
 
 .product img{
@@ -23,7 +23,7 @@
 
 button{
     cursor: pointer;
-    padding: 15px;
+    padding: 16px;
     background-color: #000;
     color: #fff;
     border: none;

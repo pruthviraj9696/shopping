@@ -2,11 +2,14 @@ import { useDispatch } from "react-redux";
 import{ remove } from "../store/cartSlice"
 import "./CartCard.css"
 
+
 const CartCard = ({product}) => {
+
 
   const dispatch = useDispatch()
 
   const {title, thumbnail, price } = product;
+
 
   return (
     <div className="product">
@@ -17,5 +20,6 @@ const CartCard = ({product}) => {
     </div>
   )
 }
+
 
 export default CartCard

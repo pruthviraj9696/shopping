@@ -1,5 +1,5 @@
 .product {
-    width: 230px;
+    width: 231px;
     display: flex;
     border: 1px solid #000;
     flex-direction: column;
@@ -7,27 +7,31 @@
     height: 350px;
 }
 
+
 .name {
     font-weight: 700;
     font-size: 18px;
 }
 
+
 .price {
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 501;
+    font-size: 16px;
 }
+
 
 .product img {
     width: 100%;
     background-size: cover;
-    height: 60%;
+    height: 61%;
 }
+
 
 button {
     cursor: pointer;
-    padding: 15px;
-    background-color: #000;
-    color: #fff;
+    padding: 16px;
+    background-color: black;
+    color:white;
     border: none;
     outline: none;
 }
